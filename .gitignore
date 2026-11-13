@@ -1,0 +1,22 @@
+# 构建产物
+*.exe
+*.pdb
+
+# 运行时与测试输出
+outputs/
+evidence/
+*.log
+preview-error.txt
+
+# 第三方二进制（体积大，按许可从官方取得）
+tools/*.exe
+
+# 编辑器
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Windows
+Thumbs.db
+desktop.ini
